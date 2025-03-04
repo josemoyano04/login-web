@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jm-Dev Login Page</title>
+    <link rel="stylesheet" href="/src/style.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
                 </h1>
             </header>
             <section>
-                <form class="login-form">
+                <form id="login-form" class="login-form" method="post">
                     <input 
                         id="username" 
                         class="login-input"
@@ -41,7 +42,7 @@
                     </button>
                 </form>
             </section>
-            <footer>
+            <footer class="login-footer">
                 <a 
                     href=""
                     class="login-forgot-password"
